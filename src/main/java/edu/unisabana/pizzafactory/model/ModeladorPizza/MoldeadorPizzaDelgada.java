@@ -1,5 +1,5 @@
 
-package edu.unisabana.pizzafactory.model;
+package edu.unisabana.pizzafactory.model.ModeladorPizza;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -8,7 +8,7 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class MoldeadorPizzaDelgada {
+public class MoldeadorPizzaDelgada implements IMoldeadorPizza{
 
     public void moldearPizzaPequena() {
         Logger.getLogger(MoldeadorPizzaDelgada.class.getName())

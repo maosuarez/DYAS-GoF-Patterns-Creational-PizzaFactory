@@ -1,5 +1,5 @@
 
-package edu.unisabana.pizzafactory.model;
+package edu.unisabana.pizzafactory.model.Exceptions;
 
 /**
  *
@@ -14,7 +14,5 @@ public class ExcepcionParametrosInvalidos extends Exception {
     public ExcepcionParametrosInvalidos(String message) {
         super(message);
     }
-    
-    
-    
+ 
 }

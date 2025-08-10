@@ -1,5 +1,5 @@
 
-package edu.unisabana.pizzafactory.model;
+package edu.unisabana.pizzafactory.model.AmasadorPizza;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -8,9 +8,7 @@ import java.util.logging.Logger;
  *
  * @author cesarvefe
  */
-public class AmasadorPizzaDelgada {
-
-    
+public class AmasadorPizzaDelgada implements IAmasadorPizza{
     
     public void amasar() {
         Logger.getLogger(AmasadorPizzaDelgada.class.getName())

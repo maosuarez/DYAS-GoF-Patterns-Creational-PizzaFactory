@@ -1,14 +1,16 @@
 
-package edu.unisabana.pizzafactory.model;
+package edu.unisabana.pizzafactory.model.HorneadorPizza;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import edu.unisabana.pizzafactory.model.AmasadorPizza.AmasadorPizzaDelgada;
 
 /**
  *
  * @author cesarvefe
  */
-public class HorneadorPizzaDelgada {
+public class HorneadorPizzaDelgada implements IHorneadorPizza {
 
     public void hornear() {
         Logger.getLogger(AmasadorPizzaDelgada.class.getName())
